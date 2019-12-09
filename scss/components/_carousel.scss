@@ -1,0 +1,31 @@
+.carousel-item {
+height: 500px;
+}
+
+.carousel-image-1 {
+background-image: url("../img/hair_3.jpg");
+background-position: center;
+background-size: cover;
+}
+
+.carousel-image-2 {
+background-image: url("../img/hair_2.jpg");
+background-position: center;
+background-size: cover;
+}
+
+.carousel-image-3 {
+background-image: url("../img/hair_1.jpg");
+background-position: center;
+background-size: cover;
+}
+
+    
+@media (min-width: 1100px) {
+.carousel-item {
+height: 600px;
+}
+}
+
+
+        

@@ -1,0 +1,59 @@
+#home-heading {
+position: relative;
+min-height: 200px;
+background-image: url("../img/xmas.jpg");
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+color: white;
+text-align: center;
+}
+
+
+
+#about{
+position: relative;
+height: 200px;
+background-image: url("../img/hair_3.jpg");
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+color: white;
+text-align: center;
+padding-top: 100px;
+border-bottom: 1px solid #eee;
+}
+
+
+.dark-overlay {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background: rgba(0, 0,0, .5)
+}
+
+
+#icon-boxes .card {
+outline: 1px solid white;
+outline-offset: -.5rem;
+}
+
+#faq {
+    
+.card {
+border: #444;
+}
+
+button{
+color: #fff;
+text-decoration: none;
+}
+
+.card-body, .card-header {
+background: #333;
+color: white;
+}
+}
+

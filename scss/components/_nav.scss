@@ -1,0 +1,81 @@
+.navbar {
+background: rgba($primary, .8);
+
+.active {
+border-bottom: rgb(218, 218, 218) 1px solid;
+}
+
+.nav-link {
+font-size: 14px;
+text-transform: uppercase;
+padding-left: 1rem !important;
+padding-right: 1rem !important;
+}   
+
+.logo {
+max-width: 40%;
+}
+
+.logo__text {
+font-family: $ff-logo;
+font-size: 1.5rem;
+}
+
+.lights {
+width: 100%;
+position: absolute;
+left: 0;
+top: 63px;
+display: block;
+
+& #red circle {
+animation: red 8000ms infinite ease-in-out;
+}
+
+& #blue circle {
+animation: blue 8000ms infinite ease-in-out;
+}
+
+& #yellow circle {
+animation: yellow 8000ms infinite ease-in-out;
+}
+}
+}
+
+
+@keyframes yellow {
+0% {
+fill: rgb(97, 71, 2);
+}
+50% {
+fill: rgb(243, 236, 215);
+}
+100% {
+fill: rgb(97, 71, 2);;
+}
+}
+
+@keyframes blue {
+0% {
+fill: rgb(2, 38, 41);
+}
+50% {
+fill:  rgb(61, 253, 205);
+}
+100% {
+fill:  rgb(2, 38, 41);
+}
+}
+
+    
+@keyframes red {
+0% {
+fill: rgb(73, 10, 12);
+}
+50% {
+fill: rgb(238, 16, 23);
+}
+100% {
+fill: rgb(73, 10, 12);
+}
+}

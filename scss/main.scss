@@ -1,0 +1,24 @@
+* {
+box-sizing: border-box;
+}
+
+
+@import "partials/variables";
+
+@import "vendor/bootstrap";
+
+@import "base/typography";
+
+
+@import "components/nav";
+@import "components/carousel";
+@import "components/homeIcon";
+@import "components/xmas";
+@import "components/overlay";
+@import "components/info";
+@import "components/makeover";
+@import "components/staff";
+
+
+
+
